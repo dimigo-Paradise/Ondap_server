@@ -1,0 +1,43 @@
+# 비밀값·로컬 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# 편집기·운영체제
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.idea/
+
+# 실행 중 생기는 데이터 (녹음·전사는 저장소에 올리지 않음)
+*.log
+local-data/
+recordings/
+uploads/
+
+# Celery
+celerybeat-schedule*
+celerybeat.pid
+
+# 시험 중 생기는 변환 결과 (tests/fixtures의 원본은 올림)
+tests/output/

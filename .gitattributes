@@ -1,0 +1,5 @@
+# 줄바꿈을 저장소 안에서는 LF로 통일 (Windows에서 전체 파일이 수정됨으로 보이는 문제 방지)
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
